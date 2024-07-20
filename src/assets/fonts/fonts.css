@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'MundialBlack';
+  src: url('./MundialBlack.otf') format('opentype');
+  font-weight: 900; /* Ajuste conforme necessário */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MundialBold';
+  src: url('./MundialBold.otf') format('opentype');
+  font-weight: 700; /* Ajuste conforme necessário */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MundialDemibold';
+  src: url('./MundialDemibold.otf') format('opentype');
+  font-weight: 600; /* Ajuste conforme necessário */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MundialLight';
+  src: url('./MundialLight.otf') format('opentype');
+  font-weight: 300; /* Ajuste conforme necessário */
+  font-style: normal;
+}

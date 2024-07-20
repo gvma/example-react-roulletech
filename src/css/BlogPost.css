@@ -1,0 +1,33 @@
+.blog-post {
+  border: 1px solid black;
+  width: 50%;
+  align-items: center;
+  padding: 20px;
+}
+
+.blog-post-title {
+  text-align: center;
+}
+
+.blog-post-title, .blog-post-content {
+  margin-bottom: 6px;
+}
+
+.blog-post-content {
+  padding: 10px;
+}
+
+.blog-post-comments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.write-commment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-comments-yet {
+  margin-bottom: 5px;
+}

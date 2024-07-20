@@ -1,0 +1,46 @@
+.overlay-button-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 4px;
+}
+
+.overlay-button-icon {
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-button:hover {
+  background-color: #0056b3;
+}
+
+.overlay-button-tooltip {
+  position: absolute;
+  bottom: 100%; /* Posiciona o tooltip acima do botão */
+  right: 0;
+  /* margin-bottom: 3px; */
+  padding: 5px 10px;
+  background-color: #09558C;
+  color: white;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 10000;
+  font-size: 14px;
+  width: 70%;
+  text-align: center;
+}
+
+.overlay-button-wrapper:hover .overlay-button-tooltip {
+  display: block;
+}

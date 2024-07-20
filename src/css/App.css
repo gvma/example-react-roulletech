@@ -1,0 +1,27 @@
+.main-container {
+  font-weight: normal;
+  font-style: normal;
+  color: #09558C;
+}
+
+html,body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'MundialLight', sans-serif;
+}
+
+b {
+  font-family: 'MundialBold', sans-serif;
+}
+
+.first-group {
+  margin-top: 40px;
+}
+
+.Toastify__toast-icon {
+  position: absolute;
+  z-index: 999999;
+}

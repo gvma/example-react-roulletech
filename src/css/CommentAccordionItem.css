@@ -1,0 +1,18 @@
+.comment-accordion-item {
+  width: 100%;
+  height: 100%;
+  /* padding: 10px; */
+  /* background: #fdefdb; */
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+
+.comment-accordion-item-header {
+  margin-bottom: 6px;
+}
+
+.comment-accordion-item-content {
+  padding: 6px;
+}
