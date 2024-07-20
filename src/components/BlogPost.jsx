@@ -27,10 +27,6 @@ function BlogPost({ id, title, content, postComments }) {
     setIsOpen(!isOpen);
   }
 
-  function onClick() {
-    console.log(comment);
-  }
-
   function handleCommentAuthorChange(event) {
     setCommentAuthor(event.target.value);
   }

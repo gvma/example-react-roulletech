@@ -29,6 +29,7 @@ function Home() {
 
     const response = await fetch(apiUrl + 'posts/');
     if (!response.ok) {
+      alert('An error occurred while fetching the posts!');
       throw new Error(`Response status: ${response.status}`);
     }
 
@@ -78,7 +79,7 @@ function Home() {
     });
     
     if (!response.ok) {
-      console.log(response);
+      alert('An error occurred while saving the post!');
       throw new Error(`Response status: ${response.status}`);
     }
     
